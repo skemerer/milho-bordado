@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+body {
+    background-color: rgba(232, 248, 0, 0.171);
+    font-family: 'Indie Flower';
+    font-weight: bold;
+}
+
+.logo {
+    width: 8.5rem;
+}
+
+header {
+    border-bottom: 1px solid #000000;
+}
+
+.fuentes {
+    font-size: 1.5rem;
+    padding: 3rem;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.fuentes li a:hover {
+    background-color: #f7650367;
+    color: #fff;
+    border-radius: 10px;
+}
+
+a {
+    text-decoration: none
+}
+
+.container {
+    display: flex;
+    margin-top: 30px;
+}
+
+.box {
+margin-top: 30px;
+border-style: outset;
+padding: 5px;
+}
+
+.tituloh3 {
+    font-size: 30px;
+    text-align: center;
+}
+
+
+.row {
+    justify-content: center; 
+    margin: auto; 
+}
+
+.card-img-top {
+    width: 300px;
+    height: 270px;
+    justify-content: center; 
+    margin: auto; 
+}
+
+
+.parrafoNosotros {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container2 {
+    margin-left: 250px;
+}
+
+.videonosotros {
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+.card {
+    margin: 0.5rem;
+}
+
+.colorBtn {
+    background-color: #0fe7dc;
+    color: #030303;
+}
+
+.colorBtn:hover {
+    background-color: #009ca1;
+    color: #fff;
+}
+
