@@ -1,17 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=PT+Sans+Narrow&display=swap');
 
 body {
     background-color: rgba(232, 248, 0, 0.171);
-    font-family: 'Indie Flower';
-    font-weight: bold;
+    font-family: 'PT Sans Narrow', sans-serif;
+    
 }
 
 .logo {
-    width: 8.5rem;
+    width: 7rem;
 }
 
 header {
-    border-bottom: 1px solid #000000;
+    border-bottom: 2px solid #000000;
 }
 
 .fuentes {
@@ -22,7 +22,7 @@ header {
 }
 
 .fuentes li a:hover {
-    background-color: #f7650367;
+    background-color: #f71f038e;
     color: #fff;
     border-radius: 10px;
 }
@@ -37,9 +37,9 @@ a {
 }
 
 .box {
-margin-top: 30px;
-border-style: outset;
-padding: 5px;
+    margin-top: 30px;
+    border-color: #030c0c;
+    padding: 5px;
 }
 
 .tituloh3 {
@@ -49,15 +49,15 @@ padding: 5px;
 
 
 .row {
-    justify-content: center; 
-    margin: auto; 
+    justify-content: center;
+    margin: auto;
 }
 
 .card-img-top {
     width: 300px;
     height: 270px;
-    justify-content: center; 
-    margin: auto; 
+    justify-content: center;
+    margin: auto;
 }
 
 
@@ -89,4 +89,3 @@ padding: 5px;
     background-color: #009ca1;
     color: #fff;
 }
-
