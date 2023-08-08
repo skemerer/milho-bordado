@@ -1,19 +1,25 @@
+/* Fuente */
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=PT+Sans+Narrow&display=swap');
 
+/* Fondo de pagina y fuente */
 body {
     background-color: rgba(232, 248, 0, 0.171);
     font-family: 'PT Sans Narrow', sans-serif;
-
 }
 
 .logo {
-    width: 7rem;
+    width: 150px;
 }
 
-header {
-    border-bottom: 2px solid #000000;
+/* Media query para pantallas con un ancho máximo de 768px (vista celular) */
+@media (max-width: 768px) {
+    .logo {
+        width: 100px;
+    }
 }
 
+
+/* Navbar */
 .fuentes {
     font-size: 1.5rem;
     padding: 3rem;
@@ -22,7 +28,7 @@ header {
 }
 
 .fuentes li a:hover {
-    background-color: #f71f038e;
+    background-color: #f7a203de;
     color: #fff;
     border-radius: 10px;
 }
@@ -31,15 +37,16 @@ a {
     text-decoration: none
 }
 
+/* Frases index */
 .container {
     display: flex;
     margin-top: 30px;
 }
 
 .box {
-    margin-top: 30px;
-    border-color: #030c0c;
-    padding: 5px;
+    margin-top: 20px;
+    border-color: #021a1a;
+    padding: 10px;
 }
 
 .tituloh3 {
@@ -47,7 +54,7 @@ a {
     text-align: center;
 }
 
-
+/* Productos */
 .row {
     justify-content: center;
     margin: auto;
@@ -60,21 +67,11 @@ a {
     margin: auto;
 }
 
-
-.parrafoNosotros {
-    max-width: 1000px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.container2 {
-    margin-left: 250px;
-}
-
 .videonosotros {
     margin-left: 100px;
     margin-top: 50px;
 }
+
 
 .card {
     margin: 0.5rem;
@@ -88,4 +85,36 @@ a {
 .colorBtn:hover {
     background-color: #009ca1;
     color: #fff;
+}
+
+footer {
+    background-color: #f7a203de;
+    padding: 2px 0;
+    text-align: center;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    /* Centra horizontalmente los elementos */
+    align-items: center;
+    /* Centra verticalmente los elementos */
+}
+
+.social-icons a {
+    margin: 0 10px;
+    color: #413f3f;
+    text-decoration: none;
+}
+
+.social-icons img {
+    width: 30px;
+    /* Ajusta el tamaño */
+    height: 30px;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 5px;
 }
